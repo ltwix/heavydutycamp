@@ -12,15 +12,15 @@ import { computedAsync } from 'ngxtension/computed-async';
   selector: 'hdbootcamp-root',
   template: `
     <header>
-      <h1>Conecta tu wallet para ver tu saldo</h1>
+      <h1>Conecta tu wallet para ver tu saldo USDT</h1>
 
       <hd-wallet-multi-button></hd-wallet-multi-button>
 
       @if (account()) {
         <div>
 
-          <img [src]="account()?.info?.image" class="w-8 h-8" />
-          <p class="text-xl">{{ account()?.balance }}</p>
+          <img [src]="account()?.info?.image" class="usdt-image" />
+          <p class="usdt-bal">{{ account()?.balance }}</p>
         </div>
 
 
