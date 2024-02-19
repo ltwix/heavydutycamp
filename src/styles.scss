@@ -1,14 +1,26 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* You can add global styles to this file, and also import other style files */
-
-html,
-body {
-  height: 100%;
+header {
+  background-color: #dcadad;
+  padding: 20px;
+  text-align: center;
 }
+
+h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.usdt-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.usdt-bal {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
 body {
-  margin: 0;
-  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  background-color: #3b3737; /* Change the color code to your desired background color */
 }
